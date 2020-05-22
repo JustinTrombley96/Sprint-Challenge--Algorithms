@@ -30,3 +30,5 @@ if n[mid] was less than f then bottom equals mid + 1.
 I would then have an else that would have the above floors - 1
 
 Then outside of the while loop if we didn't find the element I would return -1.
+
+This has a runtime of O(log n).
