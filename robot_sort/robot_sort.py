@@ -112,18 +112,22 @@ class SortingRobot:
 
         # Traverse through all array elements
 
-        n = len(self._list)
+        # n = len(self._list)
         
-        for i in range(n):
-            # Last i elements are already in place 
-            for j in range(0, n-i-1):
-                # traverse the array from 0 to n-i-1 
-                # Swap if the element found is greater 
-                # than the next element 
-                if self._list[j] > self._list[j + 1] :
-                    self._list[j], self._list[j + 1] =  self._list[j+1], self._list[j]
+        # for i in range(n):
+        #     # Last i elements are already in place 
+        #     for j in range(0, n-i-1):
+        #         # traverse the array from 0 to n-i-1 
+        #         # Swap if the element found is greater 
+        #         # than the next element 
+        #         if self._list[j] > self._list[j + 1] :
+        #             self._list[j], self._list[j + 1] =  self._list[j+1], self._list[j]
 
+        while can_move_right():
             
+
+    #while self.right, self.compare item > or < then swap
+    # if else and while loops
 
 
 

@@ -2,18 +2,14 @@
 
 ## Exercise I
 
-a) Logarithmic O(log n)
-As the size of the input increases, the runtime or space used will grow at 
-a slightly slower rate. 
+a) O(n)
+Constant
 
 
-b) Polynomial O(log n^c)
-As the size of the input increases, the runtime or space used will grow at a 
-slightly faster rate.
+b) Logarithmic(n log n)
 
-c) Exponential O(c^n)
-As the size of the input increases the runtime or space used will grow at a 
-much faster rate.
+
+c) O(n)
 
 ## Exercise II
 
