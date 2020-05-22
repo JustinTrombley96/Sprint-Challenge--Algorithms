@@ -6,17 +6,21 @@ Your function must utilize recursion. It cannot contain any loops.
 # Fibonacci Sequence
 
 def count_th(word):
+    target = 'th'
+    l = len(word)
     
-
-    if (len(word) < 2):
+    if word == '':
         return 0
-    else:
-        a = word[0]
-        b = word[1]
-        a += 1
-        b += 1
-        
+
+    #Attempt 1 (Fails 2 Tests)
+    # if word[0] + word[1] == target:
+    #     return 1 + count_th(word[2:])
+    # return count_th(word[1:])
+
+    #Attempt 2 (Fails 2 Tests)
+    # return 'th' in word
 
 
 
-    
+
+
