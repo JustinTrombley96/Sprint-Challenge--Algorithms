@@ -95,9 +95,42 @@ class SortingRobot:
     def sort(self):
         """
         Sort the robot's list.
+
+        I believe Bubble Sort will work well for sorting this robots list.
+        The robot is able to move left and right down the list. The robot start at the beginning of 
+        the list and compare it with the second item in the list. The robot will use his light
+        to view the numbers. If the first number in the list is smaller than the second number in the 
+        list then he will leave that number there and move on to the second number. If the first number
+        is larger than the second number in the list then he will pick that number up and swap it with 
+        the second number. He will then use his light to compare the item in his hands to the third item 
+        in the list. If the item in his hands is lower than the item in the next slot then he will take 
+        the item in the next slot and place the item in his hands in that spot. If the item in his
+        hands is bigger than the item in that spot, then he will move to the next item in the list. 
+        He will continue to do this until the entire list has been sorted from smallest to largest.
         """
         # Fill this out
-        pass
+
+        # Traverse through all array elements
+
+        # n = len(self._list)
+        
+        # for i in range(n):
+        #     # Last i elements are already in place 
+        #     for j in range(0, n-i-1):
+        #         # traverse the array from 0 to n-i-1 
+        #         # Swap if the element found is greater 
+        #         # than the next element 
+        #         if self._list[j] > self._list[j + 1] :
+        #             self._list[j], self._list[j + 1] =  self._list[j+1], self._list[j]
+
+        while can_move_right():
+            
+
+    #while self.right, self.compare item > or < then swap
+    # if else and while loops
+
+
+
 
 
 if __name__ == "__main__":
